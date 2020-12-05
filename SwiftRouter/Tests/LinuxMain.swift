@@ -1,7 +1,7 @@
 import XCTest
 
-import ModuleOneTests
+import SwiftRouterTests
 
 var tests = [XCTestCaseEntry]()
-tests += ModuleOneTests.allTests()
+tests += SwiftRouterTests.allTests()
 XCTMain(tests)

@@ -1,12 +1,12 @@
 import XCTest
-@testable import ModuleOne
+@testable import SwiftRouter
 
-final class ModuleOneTests: XCTestCase {
+final class SwiftRouterTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(ModuleOne().text, "Hello, World!")
+//        XCTAssertEqual(SwiftRouter.text, "Hello, World!")
     }
 
     static var allTests = [
