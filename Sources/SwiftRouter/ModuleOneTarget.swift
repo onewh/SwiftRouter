@@ -8,7 +8,7 @@
 import Foundation
 //import UIKit
 
-enum ModuleOneTarget {
+public enum ModuleOneTarget {
     case listPage
     case detailPage(_ itemId: String)
 //    case colorfulPage(_ color: UIColor)
