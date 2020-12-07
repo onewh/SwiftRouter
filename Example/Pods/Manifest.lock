@@ -1,0 +1,16 @@
+PODS:
+  - SwiftRouter (0.0.3)
+
+DEPENDENCIES:
+  - SwiftRouter (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftRouter: 95d57dd91e23469ae18e29c900cdc09bccb3767c
+
+PODFILE CHECKSUM: dc214bc1a24c791cc06a9944d5d685af7d7cfa69
+
+COCOAPODS: 1.10.0
