@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FA5C50879B90B37368F8955 /* SwiftRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftRouter.podspec; path = ../SwiftRouter.podspec; sourceTree = "<group>"; };
+		2FA5C50879B90B37368F8955 /* SwiftRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftRouter.podspec; path = ../SwiftRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33D78A584D8163BDA4595119 /* Pods-SwiftRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftRouter_Example/Pods-SwiftRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35688CFFF7D906AA48741169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
