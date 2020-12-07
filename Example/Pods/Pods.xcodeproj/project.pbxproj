@@ -10,7 +10,7 @@
 		0071D6CE3796B49F4596B32CBE8391E0 /* Pods-SwiftRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B1F7A893733A8E120E8DB7976D921 /* Pods-SwiftRouter_Tests-dummy.m */; };
 		0430D741BE493506B5F8A083BB499A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4FC499AB7BFDC5A23FBFC7C4DCCD8E10 /* Pods-SwiftRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFA9AE591D1F48F60CB8884ED9D7984 /* Pods-SwiftRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53937F62257E11B50055BBA9 /* ModuleTwoTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53937F61257E11B50055BBA9 /* ModuleTwoTarget.swift */; };
+		53937F73257E13540055BBA9 /* ModuleTwoTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53937F72257E13540055BBA9 /* ModuleTwoTarget.swift */; };
 		6287C10BC73D3A540853EB316930FF63 /* Pods-SwiftRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63FE1BB48E7B214C7726FF2A8E816D /* Pods-SwiftRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78EA4662CC48045745FD75263D91FA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7DAB315EFBE6EA33CB765DA3A94985C0 /* SwiftRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2229A97F9AAC512DD463CFC3290BCE44 /* SwiftRouter-dummy.m */; };
@@ -48,7 +48,7 @@
 		2229A97F9AAC512DD463CFC3290BCE44 /* SwiftRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftRouter-dummy.m"; sourceTree = "<group>"; };
 		493CD057BAC8ADD954188E51FA9D2E5B /* Pods-SwiftRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49F47E532F462DE727815204AFCD1817 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		53937F61257E11B50055BBA9 /* ModuleTwoTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTwoTarget.swift; sourceTree = "<group>"; };
+		53937F72257E13540055BBA9 /* ModuleTwoTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModuleTwoTarget.swift; path = Sources/SwiftRouter/ModuleTwoTarget.swift; sourceTree = "<group>"; };
 		5734A1733D213724243E035281A1237E /* SwiftRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftRouter-umbrella.h"; sourceTree = "<group>"; };
 		58AC6C3800E6CDE77A841CC2E0F174DF /* SwiftRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftRouter.release.xcconfig; sourceTree = "<group>"; };
 		60C0240279015C47A52D5389F4D9E73F /* Pods-SwiftRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				66D777260A3B7022BFFAE0028AC571A8 /* ModuleOneTarget.swift */,
-				53937F61257E11B50055BBA9 /* ModuleTwoTarget.swift */,
+				53937F72257E13540055BBA9 /* ModuleTwoTarget.swift */,
 				1DDB1FE20B6289DB9A6BA5F865592E3A /* SwiftRouter.swift */,
 				5FC2EF89A3336FFF22F34054612996E0 /* Pod */,
 				19C73AE78D1A61FE4416BFEAB22B9EBE /* Support Files */,
@@ -374,9 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E619728323D1B50D3C50BDE8018F9DF /* ModuleOneTarget.swift in Sources */,
+				53937F73257E13540055BBA9 /* ModuleTwoTarget.swift in Sources */,
 				7DAB315EFBE6EA33CB765DA3A94985C0 /* SwiftRouter-dummy.m in Sources */,
 				A6F8CC3AF44479B322F4D0F0D72E4641 /* SwiftRouter.swift in Sources */,
-				53937F62257E11B50055BBA9 /* ModuleTwoTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
